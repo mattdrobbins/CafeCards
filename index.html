@@ -133,7 +133,7 @@
     </div>
     <div id="orignalBox">
         <h4 style="font-size: 2.5rem; font-weight: 500;" class="tw-text-white tw-text-center tw-my-12">
-            Cafe Cards by <a href="https://dev.app.intlcafe.io">INTL Cafe</a>
+            Cafe Cards by <a href="https://intlcafe.io">INTL Cafe</a>
         </h4>
         <h6 style="font-size: 1.5rem; font-weight: 500;" class="tw-text-white tw-text-center tw-my-12">
             An <a href="https://apps.ankiweb.net/">Anki-Like</a> revision card application. (Yes, it uses AI 🤖🔥🔥)
@@ -167,7 +167,7 @@
             $('#review').fadeOut();
             languages.filter(s => s.CafeBadgeImageName != "").forEach(element => {
             console.log(element.CafeLanguageName)
-            var image = $(`<img onclick='badgeClicked("${element.Iso693OneLanguageCode}")'></img>`).addClass('zoom').attr({ src : `https://dev.app.intlcafe.io/img/pins/${element.CafeBadgeImageName}`, style : "width: 100px; height: 100px"})
+            var image = $(`<img onclick='badgeClicked("${element.Iso693OneLanguageCode}")'></img>`).addClass('zoom').attr({ src : `https://intlcafe.io/img/pins/${element.CafeBadgeImageName}`, style : "width: 100px; height: 100px"})
             $('#languageList').append(image);
             });
         }
